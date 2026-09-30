@@ -1,2 +1,3 @@
-# Auto detect text files and perform LF normalization
-* text=auto
+# Normaliza los finales de línea a LF (igual que como Unity guarda sus archivos).
+# Evita "cambios" falsos en Windows cuando Unity vuelve a guardar un archivo sin modificarlo.
+* text=auto eol=lf
