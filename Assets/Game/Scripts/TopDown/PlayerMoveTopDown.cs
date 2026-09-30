@@ -8,6 +8,7 @@ public class PlayerMoveTopDown : MonoBehaviour
 
     Rigidbody2D body;
     Animator anim;
+    SpriteRenderer sprite;
 
     // Vamos a referenciar el input para el movimiento
     InputAction moveAction;
@@ -17,6 +18,7 @@ public class PlayerMoveTopDown : MonoBehaviour
         // Cargarmos los componentes del objeto (Player)}
         body = GetComponent<Rigidbody2D>();
         anim = GetComponent<Animator>();
+        sprite = GetComponent<SpriteRenderer>();
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -52,6 +54,16 @@ public class PlayerMoveTopDown : MonoBehaviour
         {
             // Acá sería el caso en que se esté moviendo, que significa que tenemos que decirle qué velocidad tiene
             estaCorriendo = true;
+            if (direction.x == 1)
+            {
+                // Como estoy yendo a la derecha, no lo flipeo en x porque es la posición original
+                sprite.flipX = false;
+            }
+            else if (direction.x == -1)
+            {
+                // Como estoy yendo a la izquierda, lo flipeo en x para que voltee a la izquierda
+                sprite.flipX = true;
+            }
         }
         anim.SetBool("estaCorriendo", estaCorriendo);
     } 
