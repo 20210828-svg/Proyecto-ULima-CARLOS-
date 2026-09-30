@@ -7,6 +7,7 @@ public class PlayerMoveTopDown : MonoBehaviour
     [SerializeField] float speed;
 
     Rigidbody2D body;
+    Animator anim;
 
     // Vamos a referenciar el input para el movimiento
     InputAction moveAction;
@@ -15,6 +16,7 @@ public class PlayerMoveTopDown : MonoBehaviour
     {
         // Cargarmos los componentes del objeto (Player)}
         body = GetComponent<Rigidbody2D>();
+        anim = GetComponent<Animator>();
     }
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -33,5 +35,24 @@ public class PlayerMoveTopDown : MonoBehaviour
         // El personaje se mueve en dirección de las teclas que se han presionado.
         body.linearVelocityX = direction.x * speed;
         body.linearVelocityY = direction.y * speed;
+
+        // La condición que vamos a colocar es, si no se está moviendo llamamos a la animación Idle
+        // Y si no se cumple esa condición es porque se está moviendo y llamamos a la animación Run
+        // para usar operadores lógicos se usa en C# los siguiente
+        // 'y' -> &&
+        // 'o' -> ||
+        // 'negación' -> !
+        bool estaCorriendo = false;
+        if (direction.x == 0 && direction.y == 0)
+        {
+            // Acá vamos a llamar a la animación de idle, tengo que enviarle información de la velocidad
+            estaCorriendo = false;
+        }
+        else
+        {
+            // Acá sería el caso en que se esté moviendo, que significa que tenemos que decirle qué velocidad tiene
+            estaCorriendo = true;
+        }
+        anim.SetBool("estaCorriendo", estaCorriendo);
     } 
 }
