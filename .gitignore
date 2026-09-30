@@ -73,3 +73,18 @@ crashlytics-build.properties
 # Temporary auto-generated Android Assets
 /[Aa]ssets/[Ss]treamingAssets/aa.meta
 /[Aa]ssets/[Ss]treamingAssets/aa/*
+
+# Solución de .NET generada automáticamente por Unity (formato nuevo)
+*.slnx
+
+# Otros IDE / sistema operativo
+.idea/
+.vsconfig
+.DS_Store
+Thumbs.db
+
+# Herramientas de IA (Claude Code, MCP, Unity CLI) - configuración local
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+.mcp.json
