@@ -1,65 +1,65 @@
 fileFormatVersion: 2
-guid: 5100b75572e484e458e4340e2afe9454
+guid: a2c110585eb710b408972fbc3b96136d
 AssetOrigin:
   serializedVersion: 1
   productId: 155360
   packageName: Pixel Adventure 1
   packageVersion: 1.0
-  assetPath: Assets/Pixel Adventure 1/Assets/Items/Fruits/Kiwi.png
+  assetPath: Assets/Pixel Adventure 1/Assets/Items/Fruits/Strawberry.png
   uploadId: 332803
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4138223980208024357
-    second: Kiwi_0
+      213: 1775669009216684005
+    second: Strawberry_0
   - first:
-      213: 4027297436301884547
-    second: Kiwi_1
+      213: -32040429760078815
+    second: Strawberry_1
   - first:
-      213: 7839148961451991454
-    second: Kiwi_2
+      213: -7106730570939000684
+    second: Strawberry_2
   - first:
-      213: -730248880921602624
-    second: Kiwi_3
+      213: 4518513080991243510
+    second: Strawberry_3
   - first:
-      213: -2773199153295840776
-    second: Kiwi_4
+      213: 901954246582174200
+    second: Strawberry_4
   - first:
-      213: 433390274577684119
-    second: Kiwi_5
+      213: 825325050284003712
+    second: Strawberry_5
   - first:
-      213: -4823085682731260845
-    second: Kiwi_6
+      213: -5158240598457465908
+    second: Strawberry_6
   - first:
-      213: 3686063136471726221
-    second: Kiwi_7
+      213: 2009151386410624793
+    second: Strawberry_7
   - first:
-      213: 7554967952476731917
-    second: Kiwi_8
+      213: -8828998067812341462
+    second: Strawberry_8
   - first:
-      213: -2447911064218208986
-    second: Kiwi_9
+      213: 7853139244501102106
+    second: Strawberry_9
   - first:
-      213: 1065612581672122212
-    second: Kiwi_10
+      213: 7386868840556686860
+    second: Strawberry_10
   - first:
-      213: -3489895863418248697
-    second: Kiwi_11
+      213: 9150055279739663228
+    second: Strawberry_11
   - first:
-      213: 1055780198316226049
-    second: Kiwi_12
+      213: 8026213463552293463
+    second: Strawberry_12
   - first:
-      213: 6147472920748202901
-    second: Kiwi_13
+      213: 6850229642150134582
+    second: Strawberry_13
   - first:
-      213: 4395527864148419765
-    second: Kiwi_14
+      213: -7542899124980697566
+    second: Strawberry_14
   - first:
-      213: -3046725879948077466
-    second: Kiwi_15
+      213: -8532893379546982827
+    second: Strawberry_15
   - first:
-      213: -6983844126893656030
-    second: Kiwi_16
+      213: 1433410794814771726
+    second: Strawberry_16
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -106,7 +106,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 32
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -168,7 +168,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Kiwi_0
+      name: Strawberry_0
       rect:
         serializedVersion: 2
         x: 0
@@ -183,14 +183,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1b71817b1f78b8b428ea9187a4a49f06
-      internalID: 4138223980208024357
+      spriteID: b014665f0d442714f94f6298db4d4eeb
+      internalID: 1775669009216684005
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_1
+      name: Strawberry_1
       rect:
         serializedVersion: 2
         x: 32
@@ -205,14 +205,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ea603bd7cbffe454988be6be04803905
-      internalID: 4027297436301884547
+      spriteID: 3114ce842c387444fa76380c1f9ff556
+      internalID: -32040429760078815
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_2
+      name: Strawberry_2
       rect:
         serializedVersion: 2
         x: 64
@@ -227,14 +227,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 040f35029ac419c4eb654b60408395fc
-      internalID: 7839148961451991454
+      spriteID: 8546c3598613c30498ac9e085370e2ff
+      internalID: -7106730570939000684
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_3
+      name: Strawberry_3
       rect:
         serializedVersion: 2
         x: 96
@@ -249,14 +249,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: be8df7570c86ba54baa9c5e9afc38946
-      internalID: -730248880921602624
+      spriteID: 77fd840cd3cc1ee4c8f58dcf2acbb63e
+      internalID: 4518513080991243510
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_4
+      name: Strawberry_4
       rect:
         serializedVersion: 2
         x: 128
@@ -271,14 +271,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7b121ccaa328d124f90c6d6e84e18958
-      internalID: -2773199153295840776
+      spriteID: d18b9a1e54cf750489500ade3548c6df
+      internalID: 901954246582174200
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_5
+      name: Strawberry_5
       rect:
         serializedVersion: 2
         x: 160
@@ -293,14 +293,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27b4655cc29a57346bb7e0efedf5ece7
-      internalID: 433390274577684119
+      spriteID: 5972f03615be72d4a9635493eab003e7
+      internalID: 825325050284003712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_6
+      name: Strawberry_6
       rect:
         serializedVersion: 2
         x: 192
@@ -315,14 +315,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0299ef9e1d4c7bd4982f2cf7721ece14
-      internalID: -4823085682731260845
+      spriteID: 1d89dd6b102c8c14593b09cf21661b9d
+      internalID: -5158240598457465908
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_7
+      name: Strawberry_7
       rect:
         serializedVersion: 2
         x: 224
@@ -337,14 +337,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8288086eae7ebae43aafa9e4041fe615
-      internalID: 3686063136471726221
+      spriteID: 0303e863bdad1574a8a427f102fd2084
+      internalID: 2009151386410624793
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_8
+      name: Strawberry_8
       rect:
         serializedVersion: 2
         x: 256
@@ -359,14 +359,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 795d83e8a6d8ad6438b67af420de2f55
-      internalID: 7554967952476731917
+      spriteID: 64fcb574b8d47504e8ec92b4224282cc
+      internalID: -8828998067812341462
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_9
+      name: Strawberry_9
       rect:
         serializedVersion: 2
         x: 288
@@ -381,14 +381,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d6bb1ad4b2c01a547b2beca34ce93358
-      internalID: -2447911064218208986
+      spriteID: 76cfa977c050b00428148c07cb2c71b1
+      internalID: 7853139244501102106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_10
+      name: Strawberry_10
       rect:
         serializedVersion: 2
         x: 320
@@ -403,14 +403,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0515b703b5aa5b64c9d576811738af50
-      internalID: 1065612581672122212
+      spriteID: 416edeeb3d011e940a4ccce5f726537a
+      internalID: 7386868840556686860
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_11
+      name: Strawberry_11
       rect:
         serializedVersion: 2
         x: 352
@@ -425,14 +425,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7d6213cb8535b34ca815fe893b08dd6
-      internalID: -3489895863418248697
+      spriteID: 28955d04894b411479c44edca177f86d
+      internalID: 9150055279739663228
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_12
+      name: Strawberry_12
       rect:
         serializedVersion: 2
         x: 384
@@ -447,14 +447,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cf58d0bf1d714d54880ed496947a97e2
-      internalID: 1055780198316226049
+      spriteID: 2dbde23a1ca7d6c47b4a9c23444043ff
+      internalID: 8026213463552293463
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_13
+      name: Strawberry_13
       rect:
         serializedVersion: 2
         x: 416
@@ -469,14 +469,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: adf669cad86a9624b86777a25054df67
-      internalID: 6147472920748202901
+      spriteID: 6c0a55201ba9bf64b9bd8397973b4927
+      internalID: 6850229642150134582
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_14
+      name: Strawberry_14
       rect:
         serializedVersion: 2
         x: 448
@@ -491,14 +491,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42b370def06565f4493a538d83ddb0d0
-      internalID: 4395527864148419765
+      spriteID: 12569415f799fe843877ef5bfdcaeefc
+      internalID: -7542899124980697566
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_15
+      name: Strawberry_15
       rect:
         serializedVersion: 2
         x: 480
@@ -513,14 +513,14 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5a25ef46a6eebfe428bbc0f03db1ee1f
-      internalID: -3046725879948077466
+      spriteID: 2891da74b27dd2f41bc6f77b1fa9b3ab
+      internalID: -8532893379546982827
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Kiwi_16
+      name: Strawberry_16
       rect:
         serializedVersion: 2
         x: 512
@@ -535,8 +535,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 21bda4800db846b4aba4643ead3e3657
-      internalID: -6983844126893656030
+      spriteID: b4867994873d744468e27e7c74fd7f97
+      internalID: 1433410794814771726
       vertices: []
       indices: 
       edges: []
@@ -555,23 +555,23 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Kiwi_0: 4138223980208024357
-      Kiwi_1: 4027297436301884547
-      Kiwi_10: 1065612581672122212
-      Kiwi_11: -3489895863418248697
-      Kiwi_12: 1055780198316226049
-      Kiwi_13: 6147472920748202901
-      Kiwi_14: 4395527864148419765
-      Kiwi_15: -3046725879948077466
-      Kiwi_16: -6983844126893656030
-      Kiwi_2: 7839148961451991454
-      Kiwi_3: -730248880921602624
-      Kiwi_4: -2773199153295840776
-      Kiwi_5: 433390274577684119
-      Kiwi_6: -4823085682731260845
-      Kiwi_7: 3686063136471726221
-      Kiwi_8: 7554967952476731917
-      Kiwi_9: -2447911064218208986
+      Strawberry_0: 1775669009216684005
+      Strawberry_1: -32040429760078815
+      Strawberry_10: 7386868840556686860
+      Strawberry_11: 9150055279739663228
+      Strawberry_12: 8026213463552293463
+      Strawberry_13: 6850229642150134582
+      Strawberry_14: -7542899124980697566
+      Strawberry_15: -8532893379546982827
+      Strawberry_16: 1433410794814771726
+      Strawberry_2: -7106730570939000684
+      Strawberry_3: 4518513080991243510
+      Strawberry_4: 901954246582174200
+      Strawberry_5: 825325050284003712
+      Strawberry_6: -5158240598457465908
+      Strawberry_7: 2009151386410624793
+      Strawberry_8: -8828998067812341462
+      Strawberry_9: 7853139244501102106
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
